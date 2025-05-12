@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+        .hero {
+            background: url('cybershield.png') no-repeat center center/cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">CyberShield Solutions</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:underline">About Us</a></li>
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero flex items-center justify-center text-center text-white">
+        <!--<div>
+            <h2 class="text-4xl font-bold mb-4">Your Partner in Cybersecurity</h2>
+            <p class="text-lg">Empowering small businesses and individuals with top-notch cybersecurity solutions.</p>
+        </div>-->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">About Us</h3>
+            <p>CyberShield Solutions is a dedicated cybersecurity awareness and protection firm. Our mission is to make cybersecurity accessible to everyone through cost-effective, hands-on training and tailored solutions.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Our Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Realistic Cybersecurity Training</h4>
+                    <p>Interactive phishing simulations, social engineering awareness, and malware detection exercises.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Tailored Security Audits</h4>
+                    <p>Custom assessments to identify vulnerabilities and enhance security for your business.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Simplified Training Programs</h4>
+                    <p>User-friendly training for non-technical individuals to understand and implement best practices.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Advanced Threat Analysis</h4>
+                    <p>Comprehensive analysis to detect and mitigate advanced persistent threats targeting your infrastructure.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Incident Response Training</h4>
+                    <p>Practical guidance on how to handle cybersecurity incidents efficiently and reduce downtime.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                    <h4 class="text-xl font-bold mb-4">Password Management Workshops</h4>
+                    <p>Best practices for creating and managing strong passwords to protect digital assets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-900 text-white px-4 py-2 rounded">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-4 text-center">
+        <p>&copy; 2025 CyberShield Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
